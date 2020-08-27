@@ -4,8 +4,8 @@ AWS CloudWatchを使用したInterSystems IRISのモニタリング
 
 InterSystems IRISの各種メトリクスとログをAWS CloudWatchに簡単に公開することができます。これらメトリクスとログがあれば、IRISのデータをダッシュボードやアラートなどに統合することができます。
 
-メトリクスは IRIS REST Monitor API が返すデータに基づいています https://docs.intersystems.com/irislatestj/csp/docbook/DocBook.UI.Page.cls?KEY=GCM_rest  
-messages.log はログデータソースとして使用されます https://docs.intersystems.com/irislatestj/csp/docbook/DocBook.UI.Page.cls?KEY=ITECHREF_cconsole_log
+メトリクスは IRIS REST Monitor API が返すデータに基づいています。 https://docs.intersystems.com/irislatestj/csp/docbook/DocBook.UI.Page.cls?KEY=GCM_rest  
+messages.log はログデータソースとして使用されます。 https://docs.intersystems.com/irislatestj/csp/docbook/DocBook.UI.Page.cls?KEY=ITECHREF_cconsole_log
 
 ## IRISのログ、メトリクス及びEC2ホストレベルのデータを統合したCloudWatchダッシュボードの例:
 ![CloudWatch Dashboard](https://github.com/antonum/CloudWatch-IRIS/blob/master/images/dashboard.png?raw=true)
